@@ -53,4 +53,4 @@ Date.prototype.vnFormat = function() {
 var now = new Date();
 var d1 = new Date(2017, 11, 04);    //Chú ý rằng tháng có giá trị từ 0 - 11
 console.log(now.vnFormat());
-console.log(d1.vnFormat());
+console.log(d1.vnFormat());     //4/12/2017

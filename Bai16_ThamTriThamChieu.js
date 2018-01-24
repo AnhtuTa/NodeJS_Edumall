@@ -22,3 +22,12 @@ var c = {};
 //c.property1 = {};
 passByReference(c);     // c sẽ có thêm các thuộc tính property1,2 và data
 console.log(c);
+
+///////////////
+var age = {value: 23};
+console.log(age);   //{value: 23}
+function increaseAge(obj) {
+    obj.value += 10;
+}
+increaseAge(age);
+console.log(age);   //{value: 33}

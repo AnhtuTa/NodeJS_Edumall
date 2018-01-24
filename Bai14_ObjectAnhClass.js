@@ -1,4 +1,4 @@
-// Class trong NodeJS khá giống JSON :)
+// Object trong NodeJS khá giống JSON :)
 var person = {
     firstName: "Nguyen",
     lastName: "Bka",
@@ -16,3 +16,9 @@ console.log(person["firstName"]);
 var keyName = "firstName";
 console.log(person[keyName]);
 console.log(person.keyName);    // ko ra kq gì! Truy cập như vậy là SAI!
+
+person.school = "HUST";
+person.showInfo = function() {
+    console.log("Hello " + this.firstName + " " + this.lastName + " - " + this.school);
+}
+person.showInfo();
