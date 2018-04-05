@@ -60,3 +60,6 @@ p.showInfo();
 var md2 = require("./module2");
 console.log("msg = " + md2.msg);
 md2.sayHello();
+
+var md22 = require("./module2").sayHello;
+md22();
