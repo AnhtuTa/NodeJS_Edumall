@@ -26,7 +26,7 @@ student2.sayHello.call({name: "Anhtu"}, "Xin chào", "Fuck ĐTVT"); //truyền v
 student2.sayHello.apply({name: "Huy tran"}, ["Xin chào", "Fuck ĐTVT"]);
 console.log("\n=================\n");
 
-//============== vd khac =================//
+//============== Bai 34 =================//
 function Person() {
     this.name = "Nguyen bka";
     this.address = "HCMC";
